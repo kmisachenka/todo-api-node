@@ -1,0 +1,22 @@
+{
+  "name": "todo-server-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "forever": "^0.15.3",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.8",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": { },
+  "scripts": {
+    "start": "./node_modules/.bin/forever server.js"
+  },
+  "keywords": [],
+  "author": "Kiryl Misachenka <https://github.com/kmisachenka>",
+  "license": "MIT"
+}
