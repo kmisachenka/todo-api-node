@@ -1,0 +1,6 @@
+- hosts: localhost
+  remote_user: vagrant
+  roles:
+    - docker
+    - docker-compose
+    - nodejs
